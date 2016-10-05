@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+
+target :'uChat' do
+
+pod 'SDWebImage'
+pod 'UMengAnalytics'
+pod 'FMDB'
+pod 'AFNetworking'
+pod 'RongCloudIMKit', '~> 2.6.6'
+pod 'Reachability'
+pod 'MJRefresh'
+pod 'Firebase/Core'
+pod 'Firebase/AdMob'
+
+end

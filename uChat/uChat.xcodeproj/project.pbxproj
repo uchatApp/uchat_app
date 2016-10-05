@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87C9CCB8B5504458F192E370 /* libPods-uChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 070C1EB3969EDF207DFE82F3 /* libPods-uChat.a */; };
+		8AEC7C301D9FBA2F008B8EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C2F1D9FBA2F008B8EC0 /* main.m */; };
+		8AEC7C361D9FBA2F008B8EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C351D9FBA2F008B8EC0 /* ViewController.m */; };
+		8AEC7C391D9FBA2F008B8EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC7C371D9FBA2F008B8EC0 /* Main.storyboard */; };
+		8AEC7C3B1D9FBA2F008B8EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC7C3A1D9FBA2F008B8EC0 /* Assets.xcassets */; };
+		8AEC7C3E1D9FBA2F008B8EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC7C3C1D9FBA2F008B8EC0 /* LaunchScreen.storyboard */; };
+		8AEC7C491D9FBA2F008B8EC0 /* uChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C481D9FBA2F008B8EC0 /* uChatTests.m */; };
+		8AEC7C541D9FBA2F008B8EC0 /* uChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C531D9FBA2F008B8EC0 /* uChatUITests.m */; };
+		8AEC7C6E1D9FC268008B8EC0 /* SKNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C6D1D9FC268008B8EC0 /* SKNetwork.m */; };
+		8AEC7C771DA108B9008B8EC0 /* SKUserWebApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C761DA108B9008B8EC0 /* SKUserWebApi.m */; };
+		8AEC7C821DA121B1008B8EC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C7D1DA121B1008B8EC0 /* AppDelegate.m */; };
+		8AEC7C831DA121B1008B8EC0 /* AppDelegate+init.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C7F1DA121B1008B8EC0 /* AppDelegate+init.m */; };
+		8AEC7C841DA121B1008B8EC0 /* SKVersionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C811DA121B1008B8EC0 /* SKVersionConfig.m */; };
+		8AEC7C8C1DA13B68008B8EC0 /* UINavigationController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C8B1DA13B68008B8EC0 /* UINavigationController+Category.m */; };
+		8AEC7C931DA288E0008B8EC0 /* SKRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C921DA288E0008B8EC0 /* SKRegisterViewController.m */; };
+		8AEC7C991DA3D309008B8EC0 /* SKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C971DA3D309008B8EC0 /* SKLoginViewController.m */; };
+		8AEC7C9B1DA3D32D008B8EC0 /* SKUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C9A1DA3D32D008B8EC0 /* SKUserProfile.m */; };
+		8AEC7C9E1DA3D353008B8EC0 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C9D1DA3D353008B8EC0 /* UIView+Utils.m */; };
+		8AEC7CA11DA3D448008B8EC0 /* SKMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CA01DA3D448008B8EC0 /* SKMessageViewController.m */; };
+		8AEC7CA61DA3D6DC008B8EC0 /* SKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CA51DA3D6DC008B8EC0 /* SKBaseViewController.m */; };
+		8AEC7CA91DA3E7CB008B8EC0 /* SKMessageVCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CA81DA3E7CB008B8EC0 /* SKMessageVCHandler.m */; };
+		8AEC7CAD1DA3E88A008B8EC0 /* SKMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CAC1DA3E88A008B8EC0 /* SKMessageCell.m */; };
+		8AEC7CB21DA3EFB1008B8EC0 /* SKSelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CB11DA3EFB1008B8EC0 /* SKSelfViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AEC7C451D9FBA2F008B8EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEC7C231D9FBA2F008B8EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEC7C2A1D9FBA2F008B8EC0;
+			remoteInfo = uChat;
+		};
+		8AEC7C501D9FBA2F008B8EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEC7C231D9FBA2F008B8EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEC7C2A1D9FBA2F008B8EC0;
+			remoteInfo = uChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070C1EB3969EDF207DFE82F3 /* libPods-uChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-uChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE0C44CF272B2F396E9C30C /* Pods-uChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uChat/Pods-uChat.debug.xcconfig"; sourceTree = "<group>"; };
+		8AEC7C2B1D9FBA2F008B8EC0 /* uChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEC7C2F1D9FBA2F008B8EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AEC7C341D9FBA2F008B8EC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AEC7C351D9FBA2F008B8EC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AEC7C381D9FBA2F008B8EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AEC7C3A1D9FBA2F008B8EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AEC7C3D1D9FBA2F008B8EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AEC7C3F1D9FBA2F008B8EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEC7C441D9FBA2F008B8EC0 /* uChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEC7C481D9FBA2F008B8EC0 /* uChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uChatTests.m; sourceTree = "<group>"; };
+		8AEC7C4A1D9FBA2F008B8EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEC7C4F1D9FBA2F008B8EC0 /* uChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEC7C531D9FBA2F008B8EC0 /* uChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uChatUITests.m; sourceTree = "<group>"; };
+		8AEC7C551D9FBA2F008B8EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEC7C6B1D9FC213008B8EC0 /* SKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKMacro.h; path = Macro/SKMacro.h; sourceTree = "<group>"; };
+		8AEC7C6C1D9FC24A008B8EC0 /* SKNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKNetwork.h; path = Network/SKNetwork.h; sourceTree = "<group>"; };
+		8AEC7C6D1D9FC268008B8EC0 /* SKNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKNetwork.m; path = Network/SKNetwork.m; sourceTree = "<group>"; };
+		8AEC7C751DA10853008B8EC0 /* SKUserWebApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKUserWebApi.h; path = Network/SKUserWebApi.h; sourceTree = "<group>"; };
+		8AEC7C761DA108B9008B8EC0 /* SKUserWebApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKUserWebApi.m; path = Network/SKUserWebApi.m; sourceTree = "<group>"; };
+		8AEC7C781DA10A98008B8EC0 /* SKUserProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKUserProfile.h; path = Profile/SKUserProfile.h; sourceTree = "<group>"; };
+		8AEC7C7C1DA121B1008B8EC0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		8AEC7C7D1DA121B1008B8EC0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+		8AEC7C7E1DA121B1008B8EC0 /* AppDelegate+init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+init.h"; path = "AppDelegate/AppDelegate+init.h"; sourceTree = "<group>"; };
+		8AEC7C7F1DA121B1008B8EC0 /* AppDelegate+init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+init.m"; path = "AppDelegate/AppDelegate+init.m"; sourceTree = "<group>"; };
+		8AEC7C801DA121B1008B8EC0 /* SKVersionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKVersionConfig.h; path = AppDelegate/SKVersionConfig.h; sourceTree = "<group>"; };
+		8AEC7C811DA121B1008B8EC0 /* SKVersionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKVersionConfig.m; path = AppDelegate/SKVersionConfig.m; sourceTree = "<group>"; };
+		8AEC7C8B1DA13B68008B8EC0 /* UINavigationController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Category.m"; path = "Base/Category/UINavigationController+Category.m"; sourceTree = "<group>"; };
+		8AEC7C8D1DA13BA1008B8EC0 /* UINavigationController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Category.h"; path = "Base/Category/UINavigationController+Category.h"; sourceTree = "<group>"; };
+		8AEC7C921DA288E0008B8EC0 /* SKRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRegisterViewController.m; path = LogIn/SKRegisterViewController.m; sourceTree = "<group>"; };
+		8AEC7C961DA3D309008B8EC0 /* SKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKLoginViewController.h; path = LogIn/SKLoginViewController.h; sourceTree = "<group>"; };
+		8AEC7C971DA3D309008B8EC0 /* SKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKLoginViewController.m; path = LogIn/SKLoginViewController.m; sourceTree = "<group>"; };
+		8AEC7C981DA3D309008B8EC0 /* SKRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRegisterViewController.h; path = LogIn/SKRegisterViewController.h; sourceTree = "<group>"; };
+		8AEC7C9A1DA3D32D008B8EC0 /* SKUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKUserProfile.m; path = Profile/SKUserProfile.m; sourceTree = "<group>"; };
+		8AEC7C9C1DA3D353008B8EC0 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Utils.h"; path = "Base/Category/UIView+Utils.h"; sourceTree = "<group>"; };
+		8AEC7C9D1DA3D353008B8EC0 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utils.m"; path = "Base/Category/UIView+Utils.m"; sourceTree = "<group>"; };
+		8AEC7C9F1DA3D43F008B8EC0 /* SKMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKMessageViewController.h; sourceTree = "<group>"; };
+		8AEC7CA01DA3D448008B8EC0 /* SKMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMessageViewController.m; sourceTree = "<group>"; };
+		8AEC7CA41DA3D6D6008B8EC0 /* SKBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBaseViewController.h; sourceTree = "<group>"; };
+		8AEC7CA51DA3D6DC008B8EC0 /* SKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBaseViewController.m; sourceTree = "<group>"; };
+		8AEC7CA71DA3E7BA008B8EC0 /* SKMessageVCHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKMessageVCHandler.h; sourceTree = "<group>"; };
+		8AEC7CA81DA3E7CB008B8EC0 /* SKMessageVCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMessageVCHandler.m; sourceTree = "<group>"; };
+		8AEC7CAB1DA3E88A008B8EC0 /* SKMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMessageCell.h; sourceTree = "<group>"; };
+		8AEC7CAC1DA3E88A008B8EC0 /* SKMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMessageCell.m; sourceTree = "<group>"; };
+		8AEC7CB01DA3EF97008B8EC0 /* SKSelfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKSelfViewController.h; sourceTree = "<group>"; };
+		8AEC7CB11DA3EFB1008B8EC0 /* SKSelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSelfViewController.m; sourceTree = "<group>"; };
+		EB3870F20F0BA4FA44983B58 /* Pods-uChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-uChat/Pods-uChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AEC7C281D9FBA2F008B8EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C9CCB8B5504458F192E370 /* libPods-uChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEC7C411D9FBA2F008B8EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEC7C4C1D9FBA2F008B8EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DB181F7A15403B8AECC0C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				070C1EB3969EDF207DFE82F3 /* libPods-uChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AEC7C221D9FBA2F008B8EC0 = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C2D1D9FBA2F008B8EC0 /* uChat */,
+				8AEC7C471D9FBA2F008B8EC0 /* uChatTests */,
+				8AEC7C521D9FBA2F008B8EC0 /* uChatUITests */,
+				8AEC7C2C1D9FBA2F008B8EC0 /* Products */,
+				B43BFA0555D644731550078F /* Pods */,
+				2DB181F7A15403B8AECC0C44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AEC7C2C1D9FBA2F008B8EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C2B1D9FBA2F008B8EC0 /* uChat.app */,
+				8AEC7C441D9FBA2F008B8EC0 /* uChatTests.xctest */,
+				8AEC7C4F1D9FBA2F008B8EC0 /* uChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AEC7C2D1D9FBA2F008B8EC0 /* uChat */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7CAF1DA3EF28008B8EC0 /* HomePage */,
+				8AEC7C851DA12DB3008B8EC0 /* LogIn */,
+				8AEC7C741DA10369008B8EC0 /* Profile */,
+				8AEC7C691D9FC0D5008B8EC0 /* Macro */,
+				8AEC7C681D9FBF39008B8EC0 /* Network */,
+				8AEC7C611D9FBEA0008B8EC0 /* Base */,
+				8AEC7C7B1DA1206C008B8EC0 /* AppDelegate */,
+				8AEC7C341D9FBA2F008B8EC0 /* ViewController.h */,
+				8AEC7C351D9FBA2F008B8EC0 /* ViewController.m */,
+				8AEC7C371D9FBA2F008B8EC0 /* Main.storyboard */,
+				8AEC7C3A1D9FBA2F008B8EC0 /* Assets.xcassets */,
+				8AEC7C3C1D9FBA2F008B8EC0 /* LaunchScreen.storyboard */,
+				8AEC7C3F1D9FBA2F008B8EC0 /* Info.plist */,
+				8AEC7C2E1D9FBA2F008B8EC0 /* Supporting Files */,
+			);
+			path = uChat;
+			sourceTree = "<group>";
+		};
+		8AEC7C2E1D9FBA2F008B8EC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C2F1D9FBA2F008B8EC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AEC7C471D9FBA2F008B8EC0 /* uChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C481D9FBA2F008B8EC0 /* uChatTests.m */,
+				8AEC7C4A1D9FBA2F008B8EC0 /* Info.plist */,
+			);
+			path = uChatTests;
+			sourceTree = "<group>";
+		};
+		8AEC7C521D9FBA2F008B8EC0 /* uChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C531D9FBA2F008B8EC0 /* uChatUITests.m */,
+				8AEC7C551D9FBA2F008B8EC0 /* Info.plist */,
+			);
+			path = uChatUITests;
+			sourceTree = "<group>";
+		};
+		8AEC7C611D9FBEA0008B8EC0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7CA41DA3D6D6008B8EC0 /* SKBaseViewController.h */,
+				8AEC7CA51DA3D6DC008B8EC0 /* SKBaseViewController.m */,
+				8AEC7C891DA13688008B8EC0 /* Category */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		8AEC7C681D9FBF39008B8EC0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C751DA10853008B8EC0 /* SKUserWebApi.h */,
+				8AEC7C761DA108B9008B8EC0 /* SKUserWebApi.m */,
+				8AEC7C6C1D9FC24A008B8EC0 /* SKNetwork.h */,
+				8AEC7C6D1D9FC268008B8EC0 /* SKNetwork.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		8AEC7C691D9FC0D5008B8EC0 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C6B1D9FC213008B8EC0 /* SKMacro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		8AEC7C741DA10369008B8EC0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C781DA10A98008B8EC0 /* SKUserProfile.h */,
+				8AEC7C9A1DA3D32D008B8EC0 /* SKUserProfile.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		8AEC7C7B1DA1206C008B8EC0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C7C1DA121B1008B8EC0 /* AppDelegate.h */,
+				8AEC7C7D1DA121B1008B8EC0 /* AppDelegate.m */,
+				8AEC7C7E1DA121B1008B8EC0 /* AppDelegate+init.h */,
+				8AEC7C7F1DA121B1008B8EC0 /* AppDelegate+init.m */,
+				8AEC7C801DA121B1008B8EC0 /* SKVersionConfig.h */,
+				8AEC7C811DA121B1008B8EC0 /* SKVersionConfig.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8AEC7C851DA12DB3008B8EC0 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C961DA3D309008B8EC0 /* SKLoginViewController.h */,
+				8AEC7C971DA3D309008B8EC0 /* SKLoginViewController.m */,
+				8AEC7C981DA3D309008B8EC0 /* SKRegisterViewController.h */,
+				8AEC7C921DA288E0008B8EC0 /* SKRegisterViewController.m */,
+			);
+			name = LogIn;
+			sourceTree = "<group>";
+		};
+		8AEC7C891DA13688008B8EC0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C9C1DA3D353008B8EC0 /* UIView+Utils.h */,
+				8AEC7C9D1DA3D353008B8EC0 /* UIView+Utils.m */,
+				8AEC7C8D1DA13BA1008B8EC0 /* UINavigationController+Category.h */,
+				8AEC7C8B1DA13B68008B8EC0 /* UINavigationController+Category.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		8AEC7C951DA3D206008B8EC0 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7CAA1DA3E876008B8EC0 /* View */,
+				8AEC7CA31DA3D464008B8EC0 /* ViewController */,
+				8AEC7CA21DA3D459008B8EC0 /* Handler */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		8AEC7CA21DA3D459008B8EC0 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7CA71DA3E7BA008B8EC0 /* SKMessageVCHandler.h */,
+				8AEC7CA81DA3E7CB008B8EC0 /* SKMessageVCHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		8AEC7CA31DA3D464008B8EC0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7C9F1DA3D43F008B8EC0 /* SKMessageViewController.h */,
+				8AEC7CA01DA3D448008B8EC0 /* SKMessageViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8AEC7CAA1DA3E876008B8EC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7CAB1DA3E88A008B8EC0 /* SKMessageCell.h */,
+				8AEC7CAC1DA3E88A008B8EC0 /* SKMessageCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8AEC7CAE1DA3EF14008B8EC0 /* Self */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7CB01DA3EF97008B8EC0 /* SKSelfViewController.h */,
+				8AEC7CB11DA3EFB1008B8EC0 /* SKSelfViewController.m */,
+			);
+			name = Self;
+			sourceTree = "<group>";
+		};
+		8AEC7CAF1DA3EF28008B8EC0 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7CAE1DA3EF14008B8EC0 /* Self */,
+				8AEC7C951DA3D206008B8EC0 /* Message */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		B43BFA0555D644731550078F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EE0C44CF272B2F396E9C30C /* Pods-uChat.debug.xcconfig */,
+				EB3870F20F0BA4FA44983B58 /* Pods-uChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AEC7C2A1D9FBA2F008B8EC0 /* uChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEC7C581D9FBA2F008B8EC0 /* Build configuration list for PBXNativeTarget "uChat" */;
+			buildPhases = (
+				E8012C50F3EEC046D4DE47B3 /* [CP] Check Pods Manifest.lock */,
+				8AEC7C271D9FBA2F008B8EC0 /* Sources */,
+				8AEC7C281D9FBA2F008B8EC0 /* Frameworks */,
+				8AEC7C291D9FBA2F008B8EC0 /* Resources */,
+				EC8BC31D0D10F450DF067DBD /* [CP] Embed Pods Frameworks */,
+				681337372368DB560966B73A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uChat;
+			productName = uChat;
+			productReference = 8AEC7C2B1D9FBA2F008B8EC0 /* uChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AEC7C431D9FBA2F008B8EC0 /* uChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEC7C5B1D9FBA2F008B8EC0 /* Build configuration list for PBXNativeTarget "uChatTests" */;
+			buildPhases = (
+				8AEC7C401D9FBA2F008B8EC0 /* Sources */,
+				8AEC7C411D9FBA2F008B8EC0 /* Frameworks */,
+				8AEC7C421D9FBA2F008B8EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEC7C461D9FBA2F008B8EC0 /* PBXTargetDependency */,
+			);
+			name = uChatTests;
+			productName = uChatTests;
+			productReference = 8AEC7C441D9FBA2F008B8EC0 /* uChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AEC7C4E1D9FBA2F008B8EC0 /* uChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEC7C5E1D9FBA2F008B8EC0 /* Build configuration list for PBXNativeTarget "uChatUITests" */;
+			buildPhases = (
+				8AEC7C4B1D9FBA2F008B8EC0 /* Sources */,
+				8AEC7C4C1D9FBA2F008B8EC0 /* Frameworks */,
+				8AEC7C4D1D9FBA2F008B8EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AEC7C511D9FBA2F008B8EC0 /* PBXTargetDependency */,
+			);
+			name = uChatUITests;
+			productName = uChatUITests;
+			productReference = 8AEC7C4F1D9FBA2F008B8EC0 /* uChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AEC7C231D9FBA2F008B8EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = amazingSS;
+				TargetAttributes = {
+					8AEC7C2A1D9FBA2F008B8EC0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 896K789QN9;
+						ProvisioningStyle = Automatic;
+					};
+					8AEC7C431D9FBA2F008B8EC0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 896K789QN9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AEC7C2A1D9FBA2F008B8EC0;
+					};
+					8AEC7C4E1D9FBA2F008B8EC0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 896K789QN9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AEC7C2A1D9FBA2F008B8EC0;
+					};
+				};
+			};
+			buildConfigurationList = 8AEC7C261D9FBA2F008B8EC0 /* Build configuration list for PBXProject "uChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AEC7C221D9FBA2F008B8EC0;
+			productRefGroup = 8AEC7C2C1D9FBA2F008B8EC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AEC7C2A1D9FBA2F008B8EC0 /* uChat */,
+				8AEC7C431D9FBA2F008B8EC0 /* uChatTests */,
+				8AEC7C4E1D9FBA2F008B8EC0 /* uChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AEC7C291D9FBA2F008B8EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEC7C3E1D9FBA2F008B8EC0 /* LaunchScreen.storyboard in Resources */,
+				8AEC7C3B1D9FBA2F008B8EC0 /* Assets.xcassets in Resources */,
+				8AEC7C391D9FBA2F008B8EC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEC7C421D9FBA2F008B8EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEC7C4D1D9FBA2F008B8EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		681337372368DB560966B73A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uChat/Pods-uChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8012C50F3EEC046D4DE47B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8BC31D0D10F450DF067DBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uChat/Pods-uChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AEC7C271D9FBA2F008B8EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEC7CAD1DA3E88A008B8EC0 /* SKMessageCell.m in Sources */,
+				8AEC7C991DA3D309008B8EC0 /* SKLoginViewController.m in Sources */,
+				8AEC7C6E1D9FC268008B8EC0 /* SKNetwork.m in Sources */,
+				8AEC7C8C1DA13B68008B8EC0 /* UINavigationController+Category.m in Sources */,
+				8AEC7C821DA121B1008B8EC0 /* AppDelegate.m in Sources */,
+				8AEC7CA91DA3E7CB008B8EC0 /* SKMessageVCHandler.m in Sources */,
+				8AEC7CA61DA3D6DC008B8EC0 /* SKBaseViewController.m in Sources */,
+				8AEC7C361D9FBA2F008B8EC0 /* ViewController.m in Sources */,
+				8AEC7C831DA121B1008B8EC0 /* AppDelegate+init.m in Sources */,
+				8AEC7C9E1DA3D353008B8EC0 /* UIView+Utils.m in Sources */,
+				8AEC7CB21DA3EFB1008B8EC0 /* SKSelfViewController.m in Sources */,
+				8AEC7CA11DA3D448008B8EC0 /* SKMessageViewController.m in Sources */,
+				8AEC7C771DA108B9008B8EC0 /* SKUserWebApi.m in Sources */,
+				8AEC7C9B1DA3D32D008B8EC0 /* SKUserProfile.m in Sources */,
+				8AEC7C841DA121B1008B8EC0 /* SKVersionConfig.m in Sources */,
+				8AEC7C301D9FBA2F008B8EC0 /* main.m in Sources */,
+				8AEC7C931DA288E0008B8EC0 /* SKRegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEC7C401D9FBA2F008B8EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEC7C491D9FBA2F008B8EC0 /* uChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEC7C4B1D9FBA2F008B8EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEC7C541D9FBA2F008B8EC0 /* uChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AEC7C461D9FBA2F008B8EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AEC7C2A1D9FBA2F008B8EC0 /* uChat */;
+			targetProxy = 8AEC7C451D9FBA2F008B8EC0 /* PBXContainerItemProxy */;
+		};
+		8AEC7C511D9FBA2F008B8EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AEC7C2A1D9FBA2F008B8EC0 /* uChat */;
+			targetProxy = 8AEC7C501D9FBA2F008B8EC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AEC7C371D9FBA2F008B8EC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEC7C381D9FBA2F008B8EC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AEC7C3C1D9FBA2F008B8EC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AEC7C3D1D9FBA2F008B8EC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AEC7C561D9FBA2F008B8EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AEC7C571D9FBA2F008B8EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AEC7C591D9FBA2F008B8EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE0C44CF272B2F396E9C30C /* Pods-uChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 896K789QN9;
+				INFOPLIST_FILE = uChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazingSK.sk.uChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AEC7C5A1D9FBA2F008B8EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3870F20F0BA4FA44983B58 /* Pods-uChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 896K789QN9;
+				INFOPLIST_FILE = uChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amazingSK.sk.uChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AEC7C5C1D9FBA2F008B8EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 896K789QN9;
+				INFOPLIST_FILE = uChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.uChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uChat.app/uChat";
+			};
+			name = Debug;
+		};
+		8AEC7C5D1D9FBA2F008B8EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 896K789QN9;
+				INFOPLIST_FILE = uChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.uChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uChat.app/uChat";
+			};
+			name = Release;
+		};
+		8AEC7C5F1D9FBA2F008B8EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 896K789QN9;
+				INFOPLIST_FILE = uChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.uChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = uChat;
+			};
+			name = Debug;
+		};
+		8AEC7C601D9FBA2F008B8EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 896K789QN9;
+				INFOPLIST_FILE = uChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss.uChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = uChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AEC7C261D9FBA2F008B8EC0 /* Build configuration list for PBXProject "uChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEC7C561D9FBA2F008B8EC0 /* Debug */,
+				8AEC7C571D9FBA2F008B8EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEC7C581D9FBA2F008B8EC0 /* Build configuration list for PBXNativeTarget "uChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEC7C591D9FBA2F008B8EC0 /* Debug */,
+				8AEC7C5A1D9FBA2F008B8EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEC7C5B1D9FBA2F008B8EC0 /* Build configuration list for PBXNativeTarget "uChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEC7C5C1D9FBA2F008B8EC0 /* Debug */,
+				8AEC7C5D1D9FBA2F008B8EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEC7C5E1D9FBA2F008B8EC0 /* Build configuration list for PBXNativeTarget "uChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEC7C5F1D9FBA2F008B8EC0 /* Debug */,
+				8AEC7C601D9FBA2F008B8EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AEC7C231D9FBA2F008B8EC0 /* Project object */;
+}
