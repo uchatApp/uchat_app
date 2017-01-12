@@ -8,6 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		87C9CCB8B5504458F192E370 /* libPods-uChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 070C1EB3969EDF207DFE82F3 /* libPods-uChat.a */; };
+		8A1D06081DBF78FD00FDC0DD /* SKBigImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D06071DBF78FD00FDC0DD /* SKBigImageCell.m */; };
+		8A1D060B1DBF791000FDC0DD /* SKSelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D060A1DBF791000FDC0DD /* SKSelfViewController.m */; };
+		8A1D060E1DBF793B00FDC0DD /* SKHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D060D1DBF793B00FDC0DD /* SKHomePage.m */; };
+		8A1D06171DBF7A1B00FDC0DD /* SKMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D06161DBF7A1B00FDC0DD /* SKMessageCell.m */; };
+		8A1D061A1DBF7A2B00FDC0DD /* SKFriVCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D06191DBF7A2B00FDC0DD /* SKFriVCHandler.m */; };
+		8A1D061D1DBF7B4F00FDC0DD /* SKAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D061C1DBF7B4F00FDC0DD /* SKAccountManager.m */; };
+		8A1D06201DBF847E00FDC0DD /* SKMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D061F1DBF847E00FDC0DD /* SKMsgViewController.m */; };
+		8A3847AF1DB7A63B00C788E4 /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A3847AE1DB7A63B00C788E4 /* test3.jpg */; };
+		8A3910F31DAA201E00C91FCF /* SKNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3910F21DAA201E00C91FCF /* SKNotification.m */; };
+		8A3910F71DAA423A00C91FCF /* SKDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3910F61DAA423A00C91FCF /* SKDataBase.m */; };
+		8A3910FA1DAA4FA500C91FCF /* SKUserDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3910F91DAA4FA500C91FCF /* SKUserDataBase.m */; };
+		8A3B1BB31DB29AD20089FAF6 /* SKRgNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B1BB21DB29AD20089FAF6 /* SKRgNameViewController.m */; };
+		8A3B1BB61DB29B730089FAF6 /* SKRgBirthdayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B1BB51DB29B730089FAF6 /* SKRgBirthdayViewController.m */; };
+		8A3B1BB91DB36B370089FAF6 /* UIAlertController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B1BB81DB36B370089FAF6 /* UIAlertController+Category.m */; };
+		8A3B1BBE1DB3C70D0089FAF6 /* SKSelfVCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B1BBD1DB3C70D0089FAF6 /* SKSelfVCHandler.m */; };
+		8A3B26901DCB547B001FB105 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A3B26891DCB547B001FB105 /* city.plist */; };
+		8A3B26911DCB547B001FB105 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A3B268A1DCB547B001FB105 /* area.plist */; };
+		8A3B26971DCB5BBC001FB105 /* SKAddrPickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B26961DCB5BBC001FB105 /* SKAddrPickerDelegate.m */; };
+		8A4545561DD34FA300F1AA6C /* SKEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4545551DD34FA300F1AA6C /* SKEditViewController.m */; };
+		8A4878591DD84B910010787C /* SKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4878581DD84B910010787C /* SKSettingViewController.m */; };
+		8A5BDAA21DD1EC6F001AB730 /* SKProfileEditVCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BDAA11DD1EC6F001AB730 /* SKProfileEditVCHandler.m */; };
+		8A6DC6751DC7580E00AB96C3 /* SKSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6DC6741DC7580E00AB96C3 /* SKSearchViewController.m */; };
+		8A72DB691DCF0CEA00FF0CD4 /* SKProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A72DB681DCF0CEA00FF0CD4 /* SKProfileEditViewController.m */; };
+		8A72DB6C1DCF0D9B00FF0CD4 /* SKProfileEditViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A72DB6B1DCF0D9B00FF0CD4 /* SKProfileEditViewCell.m */; };
 		8AEC7C301D9FBA2F008B8EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C2F1D9FBA2F008B8EC0 /* main.m */; };
 		8AEC7C361D9FBA2F008B8EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C351D9FBA2F008B8EC0 /* ViewController.m */; };
 		8AEC7C391D9FBA2F008B8EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEC7C371D9FBA2F008B8EC0 /* Main.storyboard */; };
@@ -25,11 +49,23 @@
 		8AEC7C991DA3D309008B8EC0 /* SKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C971DA3D309008B8EC0 /* SKLoginViewController.m */; };
 		8AEC7C9B1DA3D32D008B8EC0 /* SKUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C9A1DA3D32D008B8EC0 /* SKUserProfile.m */; };
 		8AEC7C9E1DA3D353008B8EC0 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7C9D1DA3D353008B8EC0 /* UIView+Utils.m */; };
-		8AEC7CA11DA3D448008B8EC0 /* SKMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CA01DA3D448008B8EC0 /* SKMessageViewController.m */; };
 		8AEC7CA61DA3D6DC008B8EC0 /* SKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CA51DA3D6DC008B8EC0 /* SKBaseViewController.m */; };
-		8AEC7CA91DA3E7CB008B8EC0 /* SKMessageVCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CA81DA3E7CB008B8EC0 /* SKMessageVCHandler.m */; };
-		8AEC7CAD1DA3E88A008B8EC0 /* SKMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CAC1DA3E88A008B8EC0 /* SKMessageCell.m */; };
-		8AEC7CB21DA3EFB1008B8EC0 /* SKSelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CB11DA3EFB1008B8EC0 /* SKSelfViewController.m */; };
+		8AEC7CBE1DA69305008B8EC0 /* SKUserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CBD1DA69305008B8EC0 /* SKUserConfig.m */; };
+		8AEC7CF71DA8ED36008B8EC0 /* SKLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC7CF61DA8ED36008B8EC0 /* SKLocationManager.m */; };
+		8AEC7CFA1DA8EDFB008B8EC0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEC7CF91DA8EDFB008B8EC0 /* CoreLocation.framework */; };
+		8AF164171DC8B60200E6AD54 /* SKSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF164161DC8B60200E6AD54 /* SKSegmentCell.m */; };
+		8AF3B5681DC4F92100034C00 /* SKProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3B5671DC4F92100034C00 /* SKProfileViewController.m */; };
+		8AF3B56D1DC5028200034C00 /* SKPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3B56C1DC5028200034C00 /* SKPhotoView.m */; };
+		8AF3B5701DC5864C00034C00 /* SKProfileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3B56F1DC5864C00034C00 /* SKProfileUtil.m */; };
+		8AF3B5731DC5A2D500034C00 /* SKFriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3B5721DC5A2D500034C00 /* SKFriViewController.m */; };
+		8AF3B5761DC5D74900034C00 /* SKProfileVCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3B5751DC5D74900034C00 /* SKProfileVCHandler.m */; };
+		8AF3B5791DC5E34B00034C00 /* SKTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3B5781DC5E34B00034C00 /* SKTagView.m */; };
+		8AF3B57D1DC5EAB200034C00 /* SKFakeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3B57C1DC5EAB200034C00 /* SKFakeData.m */; };
+		8AF3B57F1DC5ED0600034C00 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3B57E1DC5ED0600034C00 /* test2.jpg */; };
+		8AF3B5811DC5ED0F00034C00 /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3B5801DC5ED0F00034C00 /* test4.jpg */; };
+		8AF3B5841DC5ED1900034C00 /* test6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3B5821DC5ED1900034C00 /* test6.png */; };
+		8AF3B5851DC5ED1900034C00 /* test7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3B5831DC5ED1900034C00 /* test7.jpg */; };
+		8AF3B5881DC5F31C00034C00 /* SKProfileAgeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3B5871DC5F31C00034C00 /* SKProfileAgeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +88,51 @@
 /* Begin PBXFileReference section */
 		070C1EB3969EDF207DFE82F3 /* libPods-uChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-uChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE0C44CF272B2F396E9C30C /* Pods-uChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uChat/Pods-uChat.debug.xcconfig"; sourceTree = "<group>"; };
+		8A1D06061DBF78FD00FDC0DD /* SKBigImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBigImageCell.h; path = General/HomePage/Self/View/SKBigImageCell.h; sourceTree = "<group>"; };
+		8A1D06071DBF78FD00FDC0DD /* SKBigImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBigImageCell.m; path = General/HomePage/Self/View/SKBigImageCell.m; sourceTree = "<group>"; };
+		8A1D06091DBF791000FDC0DD /* SKSelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKSelfViewController.h; path = General/HomePage/Self/ViewController/SKSelfViewController.h; sourceTree = "<group>"; };
+		8A1D060A1DBF791000FDC0DD /* SKSelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKSelfViewController.m; path = General/HomePage/Self/ViewController/SKSelfViewController.m; sourceTree = "<group>"; };
+		8A1D060C1DBF793B00FDC0DD /* SKHomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKHomePage.h; path = General/HomePage/SKHomePage.h; sourceTree = "<group>"; };
+		8A1D060D1DBF793B00FDC0DD /* SKHomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKHomePage.m; path = General/HomePage/SKHomePage.m; sourceTree = "<group>"; };
+		8A1D06151DBF7A1B00FDC0DD /* SKMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKMessageCell.h; path = General/HomePage/Message/View/SKMessageCell.h; sourceTree = "<group>"; };
+		8A1D06161DBF7A1B00FDC0DD /* SKMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKMessageCell.m; path = General/HomePage/Message/View/SKMessageCell.m; sourceTree = "<group>"; };
+		8A1D06181DBF7A2B00FDC0DD /* SKFriVCHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKFriVCHandler.h; path = General/HomePage/Message/Handler/SKFriVCHandler.h; sourceTree = "<group>"; };
+		8A1D06191DBF7A2B00FDC0DD /* SKFriVCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKFriVCHandler.m; path = General/HomePage/Message/Handler/SKFriVCHandler.m; sourceTree = "<group>"; };
+		8A1D061B1DBF7B4100FDC0DD /* SKAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKAccountManager.h; path = Profile/AccountManager/SKAccountManager.h; sourceTree = "<group>"; };
+		8A1D061C1DBF7B4F00FDC0DD /* SKAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKAccountManager.m; path = Profile/AccountManager/SKAccountManager.m; sourceTree = "<group>"; };
+		8A1D061E1DBF846100FDC0DD /* SKMsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKMsgViewController.h; path = General/HomePage/Message/ViewController/SKMsgViewController.h; sourceTree = "<group>"; };
+		8A1D061F1DBF847E00FDC0DD /* SKMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKMsgViewController.m; path = General/HomePage/Message/ViewController/SKMsgViewController.m; sourceTree = "<group>"; };
+		8A3847AE1DB7A63B00C788E4 /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
+		8A3910F11DAA200C00C91FCF /* SKNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKNotification.h; path = Base/Notification/SKNotification.h; sourceTree = "<group>"; };
+		8A3910F21DAA201E00C91FCF /* SKNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKNotification.m; path = Base/Notification/SKNotification.m; sourceTree = "<group>"; };
+		8A3910F51DAA422C00C91FCF /* SKDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKDataBase.h; path = DataBase/SKDataBase.h; sourceTree = "<group>"; };
+		8A3910F61DAA423A00C91FCF /* SKDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKDataBase.m; path = DataBase/SKDataBase.m; sourceTree = "<group>"; };
+		8A3910F81DAA4F8F00C91FCF /* SKUserDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKUserDataBase.h; sourceTree = "<group>"; };
+		8A3910F91DAA4FA500C91FCF /* SKUserDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKUserDataBase.m; path = DataBase/SKUserDataBase.m; sourceTree = "<group>"; };
+		8A3B1BB11DB29AB80089FAF6 /* SKRgNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKRgNameViewController.h; path = LogIn/SKRgNameViewController.h; sourceTree = "<group>"; };
+		8A3B1BB21DB29AD20089FAF6 /* SKRgNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRgNameViewController.m; path = LogIn/SKRgNameViewController.m; sourceTree = "<group>"; };
+		8A3B1BB41DB29B600089FAF6 /* SKRgBirthdayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKRgBirthdayViewController.h; path = LogIn/SKRgBirthdayViewController.h; sourceTree = "<group>"; };
+		8A3B1BB51DB29B730089FAF6 /* SKRgBirthdayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRgBirthdayViewController.m; path = LogIn/SKRgBirthdayViewController.m; sourceTree = "<group>"; };
+		8A3B1BB71DB36B280089FAF6 /* UIAlertController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+Category.h"; path = "Base/Category/UIAlertController+Category.h"; sourceTree = "<group>"; };
+		8A3B1BB81DB36B370089FAF6 /* UIAlertController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+Category.m"; path = "Base/Category/UIAlertController+Category.m"; sourceTree = "<group>"; };
+		8A3B1BBC1DB3C6A70089FAF6 /* SKSelfVCHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKSelfVCHandler.h; path = General/HomePage/Self/Handler/SKSelfVCHandler.h; sourceTree = "<group>"; };
+		8A3B1BBD1DB3C70D0089FAF6 /* SKSelfVCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKSelfVCHandler.m; path = General/HomePage/Self/Handler/SKSelfVCHandler.m; sourceTree = "<group>"; };
+		8A3B26891DCB547B001FB105 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		8A3B268A1DCB547B001FB105 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		8A3B26951DCB5BAC001FB105 /* SKAddrPickerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKAddrPickerDelegate.h; path = Base/SKAddrPickerDelegate.h; sourceTree = "<group>"; };
+		8A3B26961DCB5BBC001FB105 /* SKAddrPickerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKAddrPickerDelegate.m; path = Base/SKAddrPickerDelegate.m; sourceTree = "<group>"; };
+		8A4545541DD34F9000F1AA6C /* SKEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKEditViewController.h; path = General/Profile/SKEditViewController.h; sourceTree = "<group>"; };
+		8A4545551DD34FA300F1AA6C /* SKEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKEditViewController.m; path = General/Profile/SKEditViewController.m; sourceTree = "<group>"; };
+		8A4878571DD84B7D0010787C /* SKSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKSettingViewController.h; path = General/SKSettingViewController.h; sourceTree = "<group>"; };
+		8A4878581DD84B910010787C /* SKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKSettingViewController.m; path = General/SKSettingViewController.m; sourceTree = "<group>"; };
+		8A5BDAA01DD1EC5F001AB730 /* SKProfileEditVCHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKProfileEditVCHandler.h; path = General/Profile/SKProfileEditVCHandler.h; sourceTree = "<group>"; };
+		8A5BDAA11DD1EC6F001AB730 /* SKProfileEditVCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKProfileEditVCHandler.m; path = General/Profile/SKProfileEditVCHandler.m; sourceTree = "<group>"; };
+		8A6DC6731DC7580100AB96C3 /* SKSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKSearchViewController.h; path = General/SKSearchViewController.h; sourceTree = "<group>"; };
+		8A6DC6741DC7580E00AB96C3 /* SKSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKSearchViewController.m; path = General/SKSearchViewController.m; sourceTree = "<group>"; };
+		8A72DB671DCF0C9500FF0CD4 /* SKProfileEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKProfileEditViewController.h; path = General/Profile/SKProfileEditViewController.h; sourceTree = "<group>"; };
+		8A72DB681DCF0CEA00FF0CD4 /* SKProfileEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKProfileEditViewController.m; path = General/Profile/SKProfileEditViewController.m; sourceTree = "<group>"; };
+		8A72DB6A1DCF0D8000FF0CD4 /* SKProfileEditViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKProfileEditViewCell.h; path = General/Profile/View/SKProfileEditViewCell.h; sourceTree = "<group>"; };
+		8A72DB6B1DCF0D9B00FF0CD4 /* SKProfileEditViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKProfileEditViewCell.m; path = General/Profile/View/SKProfileEditViewCell.m; sourceTree = "<group>"; };
 		8AEC7C2B1D9FBA2F008B8EC0 /* uChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEC7C2F1D9FBA2F008B8EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AEC7C341D9FBA2F008B8EC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -87,16 +168,35 @@
 		8AEC7C9A1DA3D32D008B8EC0 /* SKUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKUserProfile.m; path = Profile/SKUserProfile.m; sourceTree = "<group>"; };
 		8AEC7C9C1DA3D353008B8EC0 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Utils.h"; path = "Base/Category/UIView+Utils.h"; sourceTree = "<group>"; };
 		8AEC7C9D1DA3D353008B8EC0 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utils.m"; path = "Base/Category/UIView+Utils.m"; sourceTree = "<group>"; };
-		8AEC7C9F1DA3D43F008B8EC0 /* SKMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKMessageViewController.h; sourceTree = "<group>"; };
-		8AEC7CA01DA3D448008B8EC0 /* SKMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMessageViewController.m; sourceTree = "<group>"; };
 		8AEC7CA41DA3D6D6008B8EC0 /* SKBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBaseViewController.h; sourceTree = "<group>"; };
 		8AEC7CA51DA3D6DC008B8EC0 /* SKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBaseViewController.m; sourceTree = "<group>"; };
-		8AEC7CA71DA3E7BA008B8EC0 /* SKMessageVCHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKMessageVCHandler.h; sourceTree = "<group>"; };
-		8AEC7CA81DA3E7CB008B8EC0 /* SKMessageVCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMessageVCHandler.m; sourceTree = "<group>"; };
-		8AEC7CAB1DA3E88A008B8EC0 /* SKMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMessageCell.h; sourceTree = "<group>"; };
-		8AEC7CAC1DA3E88A008B8EC0 /* SKMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMessageCell.m; sourceTree = "<group>"; };
-		8AEC7CB01DA3EF97008B8EC0 /* SKSelfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKSelfViewController.h; sourceTree = "<group>"; };
-		8AEC7CB11DA3EFB1008B8EC0 /* SKSelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSelfViewController.m; sourceTree = "<group>"; };
+		8AEC7CBC1DA692EE008B8EC0 /* SKUserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKUserConfig.h; path = Base/SKUserConfig.h; sourceTree = "<group>"; };
+		8AEC7CBD1DA69305008B8EC0 /* SKUserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKUserConfig.m; path = Base/SKUserConfig.m; sourceTree = "<group>"; };
+		8AEC7CF61DA8ED36008B8EC0 /* SKLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKLocationManager.m; path = Base/Location/SKLocationManager.m; sourceTree = "<group>"; };
+		8AEC7CF81DA8ED5A008B8EC0 /* SKLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKLocationManager.h; path = Base/Location/SKLocationManager.h; sourceTree = "<group>"; };
+		8AEC7CF91DA8EDFB008B8EC0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8AF164151DC8B5F500E6AD54 /* SKSegmentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKSegmentCell.h; path = General/SKSegmentCell.h; sourceTree = "<group>"; };
+		8AF164161DC8B60200E6AD54 /* SKSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKSegmentCell.m; path = General/SKSegmentCell.m; sourceTree = "<group>"; };
+		8AF3B5671DC4F92100034C00 /* SKProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKProfileViewController.m; path = General/Profile/SKProfileViewController.m; sourceTree = "<group>"; };
+		8AF3B5691DC4F98B00034C00 /* SKProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKProfileViewController.h; path = General/Profile/SKProfileViewController.h; sourceTree = "<group>"; };
+		8AF3B56B1DC5026700034C00 /* SKPhotoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKPhotoView.h; path = General/Profile/View/SKPhotoView.h; sourceTree = "<group>"; };
+		8AF3B56C1DC5028200034C00 /* SKPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKPhotoView.m; path = General/Profile/View/SKPhotoView.m; sourceTree = "<group>"; };
+		8AF3B56E1DC5860400034C00 /* SKProfileUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKProfileUtil.h; path = Profile/SKProfileUtil.h; sourceTree = "<group>"; };
+		8AF3B56F1DC5864C00034C00 /* SKProfileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKProfileUtil.m; path = Profile/SKProfileUtil.m; sourceTree = "<group>"; };
+		8AF3B5711DC5A2AD00034C00 /* SKFriViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKFriViewController.h; path = General/HomePage/Friend/SKFriViewController.h; sourceTree = "<group>"; };
+		8AF3B5721DC5A2D500034C00 /* SKFriViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKFriViewController.m; path = General/HomePage/Friend/SKFriViewController.m; sourceTree = "<group>"; };
+		8AF3B5741DC5D73900034C00 /* SKProfileVCHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKProfileVCHandler.h; path = General/Profile/SKProfileVCHandler.h; sourceTree = "<group>"; };
+		8AF3B5751DC5D74900034C00 /* SKProfileVCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKProfileVCHandler.m; path = General/Profile/SKProfileVCHandler.m; sourceTree = "<group>"; };
+		8AF3B5771DC5E32F00034C00 /* SKTagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKTagView.h; path = General/Profile/SKTagView.h; sourceTree = "<group>"; };
+		8AF3B5781DC5E34B00034C00 /* SKTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTagView.m; path = General/Profile/SKTagView.m; sourceTree = "<group>"; };
+		8AF3B57B1DC5EAA900034C00 /* SKFakeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKFakeData.h; sourceTree = "<group>"; };
+		8AF3B57C1DC5EAB200034C00 /* SKFakeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFakeData.m; sourceTree = "<group>"; };
+		8AF3B57E1DC5ED0600034C00 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+		8AF3B5801DC5ED0F00034C00 /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test4.jpg; sourceTree = "<group>"; };
+		8AF3B5821DC5ED1900034C00 /* test6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test6.png; sourceTree = "<group>"; };
+		8AF3B5831DC5ED1900034C00 /* test7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test7.jpg; sourceTree = "<group>"; };
+		8AF3B5861DC5F30500034C00 /* SKProfileAgeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKProfileAgeCell.h; path = Profile/SKProfileAgeCell.h; sourceTree = "<group>"; };
+		8AF3B5871DC5F31C00034C00 /* SKProfileAgeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKProfileAgeCell.m; path = Profile/SKProfileAgeCell.m; sourceTree = "<group>"; };
 		EB3870F20F0BA4FA44983B58 /* Pods-uChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-uChat/Pods-uChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AEC7CFA1DA8EDFB008B8EC0 /* CoreLocation.framework in Frameworks */,
 				87C9CCB8B5504458F192E370 /* libPods-uChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,9 +230,110 @@
 		2DB181F7A15403B8AECC0C44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8AEC7CF91DA8EDFB008B8EC0 /* CoreLocation.framework */,
 				070C1EB3969EDF207DFE82F3 /* libPods-uChat.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A1D06051DBF78E000FDC0DD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D06091DBF791000FDC0DD /* SKSelfViewController.h */,
+				8A1D060A1DBF791000FDC0DD /* SKSelfViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8A1E6D651DAD044600C2CD5D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A3B26881DCB5460001FB105 /* Address */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8A3847AD1DB7A4AB00C788E4 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				8AF3B5711DC5A2AD00034C00 /* SKFriViewController.h */,
+				8AF3B5721DC5A2D500034C00 /* SKFriViewController.m */,
+				8A1D06181DBF7A2B00FDC0DD /* SKFriVCHandler.h */,
+				8A1D06191DBF7A2B00FDC0DD /* SKFriVCHandler.m */,
+			);
+			name = Friend;
+			sourceTree = "<group>";
+		};
+		8A3910F01DAA1FC100C91FCF /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				8A3910F11DAA200C00C91FCF /* SKNotification.h */,
+				8A3910F21DAA201E00C91FCF /* SKNotification.m */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		8A3910F41DAA41BA00C91FCF /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				8A3910F51DAA422C00C91FCF /* SKDataBase.h */,
+				8A3910F61DAA423A00C91FCF /* SKDataBase.m */,
+				8A3910F81DAA4F8F00C91FCF /* SKUserDataBase.h */,
+				8A3910F91DAA4FA500C91FCF /* SKUserDataBase.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		8A3B1BBA1DB370220089FAF6 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8A4878561DD84B5F0010787C /* SysSetting */,
+				8A6DC6721DC757DC00AB96C3 /* Search */,
+				8AF3B5651DC4F6C500034C00 /* Profile */,
+				8AEC7C851DA12DB3008B8EC0 /* LogIn */,
+				8AEC7CAF1DA3EF28008B8EC0 /* HomePage */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		8A3B1BBB1DB3C6140089FAF6 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				8A3B1BBC1DB3C6A70089FAF6 /* SKSelfVCHandler.h */,
+				8A3B1BBD1DB3C70D0089FAF6 /* SKSelfVCHandler.m */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		8A3B26881DCB5460001FB105 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				8A3B26891DCB547B001FB105 /* city.plist */,
+				8A3B268A1DCB547B001FB105 /* area.plist */,
+				8A3B26951DCB5BAC001FB105 /* SKAddrPickerDelegate.h */,
+				8A3B26961DCB5BBC001FB105 /* SKAddrPickerDelegate.m */,
+			);
+			name = Address;
+			sourceTree = "<group>";
+		};
+		8A4878561DD84B5F0010787C /* SysSetting */ = {
+			isa = PBXGroup;
+			children = (
+				8A4878571DD84B7D0010787C /* SKSettingViewController.h */,
+				8A4878581DD84B910010787C /* SKSettingViewController.m */,
+			);
+			name = SysSetting;
+			sourceTree = "<group>";
+		};
+		8A6DC6721DC757DC00AB96C3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				8A6DC6731DC7580100AB96C3 /* SKSearchViewController.h */,
+				8A6DC6741DC7580E00AB96C3 /* SKSearchViewController.m */,
+				8AF164151DC8B5F500E6AD54 /* SKSegmentCell.h */,
+				8AF164161DC8B60200E6AD54 /* SKSegmentCell.m */,
+			);
+			name = Search;
 			sourceTree = "<group>";
 		};
 		8AEC7C221D9FBA2F008B8EC0 = {
@@ -159,11 +361,12 @@
 		8AEC7C2D1D9FBA2F008B8EC0 /* uChat */ = {
 			isa = PBXGroup;
 			children = (
-				8AEC7CAF1DA3EF28008B8EC0 /* HomePage */,
-				8AEC7C851DA12DB3008B8EC0 /* LogIn */,
+				8AF3B57A1DC5EA8E00034C00 /* FakeData */,
+				8A3B1BBA1DB370220089FAF6 /* General */,
 				8AEC7C741DA10369008B8EC0 /* Profile */,
 				8AEC7C691D9FC0D5008B8EC0 /* Macro */,
 				8AEC7C681D9FBF39008B8EC0 /* Network */,
+				8A3910F41DAA41BA00C91FCF /* DataBase */,
 				8AEC7C611D9FBEA0008B8EC0 /* Base */,
 				8AEC7C7B1DA1206C008B8EC0 /* AppDelegate */,
 				8AEC7C341D9FBA2F008B8EC0 /* ViewController.h */,
@@ -206,6 +409,11 @@
 		8AEC7C611D9FBEA0008B8EC0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8A1E6D651DAD044600C2CD5D /* Utils */,
+				8A3910F01DAA1FC100C91FCF /* Notification */,
+				8AEC7CF41DA8E828008B8EC0 /* Location */,
+				8AEC7CBC1DA692EE008B8EC0 /* SKUserConfig.h */,
+				8AEC7CBD1DA69305008B8EC0 /* SKUserConfig.m */,
 				8AEC7CA41DA3D6D6008B8EC0 /* SKBaseViewController.h */,
 				8AEC7CA51DA3D6DC008B8EC0 /* SKBaseViewController.m */,
 				8AEC7C891DA13688008B8EC0 /* Category */,
@@ -235,8 +443,11 @@
 		8AEC7C741DA10369008B8EC0 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				8AEC7CB31DA54A9D008B8EC0 /* AccountManager */,
 				8AEC7C781DA10A98008B8EC0 /* SKUserProfile.h */,
 				8AEC7C9A1DA3D32D008B8EC0 /* SKUserProfile.m */,
+				8AF3B56E1DC5860400034C00 /* SKProfileUtil.h */,
+				8AF3B56F1DC5864C00034C00 /* SKProfileUtil.m */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
@@ -261,6 +472,10 @@
 				8AEC7C971DA3D309008B8EC0 /* SKLoginViewController.m */,
 				8AEC7C981DA3D309008B8EC0 /* SKRegisterViewController.h */,
 				8AEC7C921DA288E0008B8EC0 /* SKRegisterViewController.m */,
+				8A3B1BB11DB29AB80089FAF6 /* SKRgNameViewController.h */,
+				8A3B1BB21DB29AD20089FAF6 /* SKRgNameViewController.m */,
+				8A3B1BB41DB29B600089FAF6 /* SKRgBirthdayViewController.h */,
+				8A3B1BB51DB29B730089FAF6 /* SKRgBirthdayViewController.m */,
 			);
 			name = LogIn;
 			sourceTree = "<group>";
@@ -272,6 +487,8 @@
 				8AEC7C9D1DA3D353008B8EC0 /* UIView+Utils.m */,
 				8AEC7C8D1DA13BA1008B8EC0 /* UINavigationController+Category.h */,
 				8AEC7C8B1DA13B68008B8EC0 /* UINavigationController+Category.m */,
+				8A3B1BB71DB36B280089FAF6 /* UIAlertController+Category.h */,
+				8A3B1BB81DB36B370089FAF6 /* UIAlertController+Category.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -279,8 +496,8 @@
 		8AEC7C951DA3D206008B8EC0 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				8AEC7CAA1DA3E876008B8EC0 /* View */,
 				8AEC7CA31DA3D464008B8EC0 /* ViewController */,
+				8AEC7CAA1DA3E876008B8EC0 /* View */,
 				8AEC7CA21DA3D459008B8EC0 /* Handler */,
 			);
 			name = Message;
@@ -289,8 +506,6 @@
 		8AEC7CA21DA3D459008B8EC0 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
-				8AEC7CA71DA3E7BA008B8EC0 /* SKMessageVCHandler.h */,
-				8AEC7CA81DA3E7CB008B8EC0 /* SKMessageVCHandler.m */,
 			);
 			name = Handler;
 			sourceTree = "<group>";
@@ -298,8 +513,8 @@
 		8AEC7CA31DA3D464008B8EC0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8AEC7C9F1DA3D43F008B8EC0 /* SKMessageViewController.h */,
-				8AEC7CA01DA3D448008B8EC0 /* SKMessageViewController.m */,
+				8A1D061E1DBF846100FDC0DD /* SKMsgViewController.h */,
+				8A1D061F1DBF847E00FDC0DD /* SKMsgViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -307,8 +522,8 @@
 		8AEC7CAA1DA3E876008B8EC0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8AEC7CAB1DA3E88A008B8EC0 /* SKMessageCell.h */,
-				8AEC7CAC1DA3E88A008B8EC0 /* SKMessageCell.m */,
+				8A1D06151DBF7A1B00FDC0DD /* SKMessageCell.h */,
+				8A1D06161DBF7A1B00FDC0DD /* SKMessageCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -316,8 +531,9 @@
 		8AEC7CAE1DA3EF14008B8EC0 /* Self */ = {
 			isa = PBXGroup;
 			children = (
-				8AEC7CB01DA3EF97008B8EC0 /* SKSelfViewController.h */,
-				8AEC7CB11DA3EFB1008B8EC0 /* SKSelfViewController.m */,
+				8A1D06051DBF78E000FDC0DD /* ViewController */,
+				8A3B1BBB1DB3C6140089FAF6 /* Handler */,
+				8AEC7CB81DA563D8008B8EC0 /* View */,
 			);
 			name = Self;
 			sourceTree = "<group>";
@@ -325,10 +541,87 @@
 		8AEC7CAF1DA3EF28008B8EC0 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				8A1D060C1DBF793B00FDC0DD /* SKHomePage.h */,
+				8A1D060D1DBF793B00FDC0DD /* SKHomePage.m */,
+				8A3847AD1DB7A4AB00C788E4 /* Friend */,
 				8AEC7CAE1DA3EF14008B8EC0 /* Self */,
 				8AEC7C951DA3D206008B8EC0 /* Message */,
 			);
 			name = HomePage;
+			sourceTree = "<group>";
+		};
+		8AEC7CB31DA54A9D008B8EC0 /* AccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D061C1DBF7B4F00FDC0DD /* SKAccountManager.m */,
+				8A1D061B1DBF7B4100FDC0DD /* SKAccountManager.h */,
+			);
+			name = AccountManager;
+			sourceTree = "<group>";
+		};
+		8AEC7CB81DA563D8008B8EC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D06061DBF78FD00FDC0DD /* SKBigImageCell.h */,
+				8A1D06071DBF78FD00FDC0DD /* SKBigImageCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8AEC7CF41DA8E828008B8EC0 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				8AEC7CF81DA8ED5A008B8EC0 /* SKLocationManager.h */,
+				8AEC7CF61DA8ED36008B8EC0 /* SKLocationManager.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		8AF3B5651DC4F6C500034C00 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8AF3B56A1DC5023300034C00 /* View */,
+				8AF3B5691DC4F98B00034C00 /* SKProfileViewController.h */,
+				8AF3B5671DC4F92100034C00 /* SKProfileViewController.m */,
+				8AF3B5741DC5D73900034C00 /* SKProfileVCHandler.h */,
+				8AF3B5751DC5D74900034C00 /* SKProfileVCHandler.m */,
+				8A5BDAA01DD1EC5F001AB730 /* SKProfileEditVCHandler.h */,
+				8A5BDAA11DD1EC6F001AB730 /* SKProfileEditVCHandler.m */,
+				8A4545541DD34F9000F1AA6C /* SKEditViewController.h */,
+				8A4545551DD34FA300F1AA6C /* SKEditViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		8AF3B56A1DC5023300034C00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AF3B56B1DC5026700034C00 /* SKPhotoView.h */,
+				8AF3B56C1DC5028200034C00 /* SKPhotoView.m */,
+				8AF3B5771DC5E32F00034C00 /* SKTagView.h */,
+				8AF3B5781DC5E34B00034C00 /* SKTagView.m */,
+				8AF3B5861DC5F30500034C00 /* SKProfileAgeCell.h */,
+				8AF3B5871DC5F31C00034C00 /* SKProfileAgeCell.m */,
+				8A72DB671DCF0C9500FF0CD4 /* SKProfileEditViewController.h */,
+				8A72DB681DCF0CEA00FF0CD4 /* SKProfileEditViewController.m */,
+				8A72DB6A1DCF0D8000FF0CD4 /* SKProfileEditViewCell.h */,
+				8A72DB6B1DCF0D9B00FF0CD4 /* SKProfileEditViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8AF3B57A1DC5EA8E00034C00 /* FakeData */ = {
+			isa = PBXGroup;
+			children = (
+				8AF3B5801DC5ED0F00034C00 /* test4.jpg */,
+				8AF3B57E1DC5ED0600034C00 /* test2.jpg */,
+				8AF3B5821DC5ED1900034C00 /* test6.png */,
+				8AF3B5831DC5ED1900034C00 /* test7.jpg */,
+				8A3847AE1DB7A63B00C788E4 /* test3.jpg */,
+				8AF3B57B1DC5EAA900034C00 /* SKFakeData.h */,
+				8AF3B57C1DC5EAB200034C00 /* SKFakeData.m */,
+			);
+			name = FakeData;
 			sourceTree = "<group>";
 		};
 		B43BFA0555D644731550078F /* Pods */ = {
@@ -353,6 +646,7 @@
 				8AEC7C291D9FBA2F008B8EC0 /* Resources */,
 				EC8BC31D0D10F450DF067DBD /* [CP] Embed Pods Frameworks */,
 				681337372368DB560966B73A /* [CP] Copy Pods Resources */,
+				8A5B4B3E1DAB81B10081C340 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -410,7 +704,7 @@
 				TargetAttributes = {
 					8AEC7C2A1D9FBA2F008B8EC0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 896K789QN9;
+						DevelopmentTeam = 8NM88PLAA8;
 						ProvisioningStyle = Automatic;
 					};
 					8AEC7C431D9FBA2F008B8EC0 = {
@@ -453,8 +747,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AEC7C3E1D9FBA2F008B8EC0 /* LaunchScreen.storyboard in Resources */,
+				8A3B26911DCB547B001FB105 /* area.plist in Resources */,
+				8AF3B57F1DC5ED0600034C00 /* test2.jpg in Resources */,
+				8AF3B5811DC5ED0F00034C00 /* test4.jpg in Resources */,
+				8A3B26901DCB547B001FB105 /* city.plist in Resources */,
 				8AEC7C3B1D9FBA2F008B8EC0 /* Assets.xcassets in Resources */,
+				8AF3B5841DC5ED1900034C00 /* test6.png in Resources */,
 				8AEC7C391D9FBA2F008B8EC0 /* Main.storyboard in Resources */,
+				8A3847AF1DB7A63B00C788E4 /* test3.jpg in Resources */,
+				8AF3B5851DC5ED1900034C00 /* test7.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +790,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uChat/Pods-uChat-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8A5B4B3E1DAB81B10081C340 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 0bd35f2f57e37f02d123c669e6cf00e9d3a6bdee f3f9fd90664babaf62c4265e11a44df3eb356cff4517c922f65eb2345d2a9605";
 		};
 		E8012C50F3EEC046D4DE47B3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -527,23 +841,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AEC7CAD1DA3E88A008B8EC0 /* SKMessageCell.m in Sources */,
+				8A4545561DD34FA300F1AA6C /* SKEditViewController.m in Sources */,
 				8AEC7C991DA3D309008B8EC0 /* SKLoginViewController.m in Sources */,
+				8A3B1BB31DB29AD20089FAF6 /* SKRgNameViewController.m in Sources */,
+				8AEC7CF71DA8ED36008B8EC0 /* SKLocationManager.m in Sources */,
 				8AEC7C6E1D9FC268008B8EC0 /* SKNetwork.m in Sources */,
+				8A1D061D1DBF7B4F00FDC0DD /* SKAccountManager.m in Sources */,
+				8AF3B5881DC5F31C00034C00 /* SKProfileAgeCell.m in Sources */,
+				8A72DB691DCF0CEA00FF0CD4 /* SKProfileEditViewController.m in Sources */,
+				8AF164171DC8B60200E6AD54 /* SKSegmentCell.m in Sources */,
+				8A72DB6C1DCF0D9B00FF0CD4 /* SKProfileEditViewCell.m in Sources */,
 				8AEC7C8C1DA13B68008B8EC0 /* UINavigationController+Category.m in Sources */,
+				8A1D06081DBF78FD00FDC0DD /* SKBigImageCell.m in Sources */,
+				8A3B1BB91DB36B370089FAF6 /* UIAlertController+Category.m in Sources */,
 				8AEC7C821DA121B1008B8EC0 /* AppDelegate.m in Sources */,
-				8AEC7CA91DA3E7CB008B8EC0 /* SKMessageVCHandler.m in Sources */,
+				8A1D060B1DBF791000FDC0DD /* SKSelfViewController.m in Sources */,
+				8AF3B57D1DC5EAB200034C00 /* SKFakeData.m in Sources */,
 				8AEC7CA61DA3D6DC008B8EC0 /* SKBaseViewController.m in Sources */,
+				8AF3B56D1DC5028200034C00 /* SKPhotoView.m in Sources */,
 				8AEC7C361D9FBA2F008B8EC0 /* ViewController.m in Sources */,
+				8AF3B5681DC4F92100034C00 /* SKProfileViewController.m in Sources */,
+				8A3B1BB61DB29B730089FAF6 /* SKRgBirthdayViewController.m in Sources */,
+				8A3910F71DAA423A00C91FCF /* SKDataBase.m in Sources */,
 				8AEC7C831DA121B1008B8EC0 /* AppDelegate+init.m in Sources */,
+				8A1D06201DBF847E00FDC0DD /* SKMsgViewController.m in Sources */,
+				8AF3B5791DC5E34B00034C00 /* SKTagView.m in Sources */,
+				8A3B1BBE1DB3C70D0089FAF6 /* SKSelfVCHandler.m in Sources */,
+				8A3910FA1DAA4FA500C91FCF /* SKUserDataBase.m in Sources */,
+				8A5BDAA21DD1EC6F001AB730 /* SKProfileEditVCHandler.m in Sources */,
+				8A3B26971DCB5BBC001FB105 /* SKAddrPickerDelegate.m in Sources */,
 				8AEC7C9E1DA3D353008B8EC0 /* UIView+Utils.m in Sources */,
-				8AEC7CB21DA3EFB1008B8EC0 /* SKSelfViewController.m in Sources */,
-				8AEC7CA11DA3D448008B8EC0 /* SKMessageViewController.m in Sources */,
+				8AF3B5731DC5A2D500034C00 /* SKFriViewController.m in Sources */,
+				8AEC7CBE1DA69305008B8EC0 /* SKUserConfig.m in Sources */,
+				8A6DC6751DC7580E00AB96C3 /* SKSearchViewController.m in Sources */,
+				8A1D061A1DBF7A2B00FDC0DD /* SKFriVCHandler.m in Sources */,
 				8AEC7C771DA108B9008B8EC0 /* SKUserWebApi.m in Sources */,
 				8AEC7C9B1DA3D32D008B8EC0 /* SKUserProfile.m in Sources */,
 				8AEC7C841DA121B1008B8EC0 /* SKVersionConfig.m in Sources */,
 				8AEC7C301D9FBA2F008B8EC0 /* main.m in Sources */,
+				8A1D060E1DBF793B00FDC0DD /* SKHomePage.m in Sources */,
+				8AF3B5761DC5D74900034C00 /* SKProfileVCHandler.m in Sources */,
+				8A4878591DD84B910010787C /* SKSettingViewController.m in Sources */,
+				8A1D06171DBF7A1B00FDC0DD /* SKMessageCell.m in Sources */,
 				8AEC7C931DA288E0008B8EC0 /* SKRegisterViewController.m in Sources */,
+				8A3910F31DAA201E00C91FCF /* SKNotification.m in Sources */,
+				8AF3B5701DC5864C00034C00 /* SKProfileUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,7 +980,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -680,7 +1022,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -693,11 +1035,16 @@
 			baseConfigurationReference = 2EE0C44CF272B2F396E9C30C /* Pods-uChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 896K789QN9;
+				DEVELOPMENT_TEAM = 8NM88PLAA8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = uChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazingSK.sk.uChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -706,11 +1053,16 @@
 			baseConfigurationReference = EB3870F20F0BA4FA44983B58 /* Pods-uChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 896K789QN9;
+				DEVELOPMENT_TEAM = 8NM88PLAA8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = uChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazingSK.sk.uChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

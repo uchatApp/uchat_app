@@ -4,34 +4,6 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "uChat/AppDelegate/AppDelegate+init.m"
-            timestampString = "497282099.84324"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "uChat/AppDelegate/AppDelegate+init.m"
-            timestampString = "497158725.828763"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
@@ -47,12 +19,76 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/LogIn/SKRegisterViewController.m"
-            timestampString = "497274343.97325"
+            filePath = "uChat/Base/SKAddrPickerDelegate.m"
+            timestampString = "499951610.158381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "-pickerView:didSelectRow:inComponent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "uChat/Base/SKAddrPickerDelegate.m"
+            timestampString = "499951970.130859"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "-pickerView:didSelectRow:inComponent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "uChat/General/SKSearchViewController.m"
+            timestampString = "500712458.378626"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "-addrPicker"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "uChat/General/SKSearchViewController.m"
+            timestampString = "500712458.378626"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "-failSelector:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "uChat/General/SKSearchViewController.m"
+            timestampString = "500712458.378626"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
             landmarkName = "-okSelector:"
             landmarkType = "7">
          </BreakpointContent>
@@ -63,28 +99,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/LogIn/SKRegisterViewController.m"
-            timestampString = "497274343.97325"
+            filePath = "uChat/General/SKSearchViewController.m"
+            timestampString = "500712458.378626"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
-            landmarkName = "-failSelector:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "uChat/LogIn/SKRegisterViewController.m"
-            timestampString = "497274343.97325"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
             landmarkName = "-erro:"
             landmarkType = "7">
          </BreakpointContent>
@@ -95,29 +115,93 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/LogIn/SKRegisterViewController.m"
-            timestampString = "497269404.310634"
+            filePath = "uChat/General/HomePage/Message/View/SKMessageCell.m"
+            timestampString = "500711366.021655"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "-registerUser"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "+cellHeight"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/Network/SKUserWebApi.m"
-            timestampString = "497269326.88182"
+            filePath = "uChat/General/Profile/SKProfileEditVCHandler.m"
+            timestampString = "501081563.643648"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "uChat/General/Profile/SKProfileEditVCHandler.m"
+            timestampString = "501081292.162725"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "uChat/General/Profile/SKProfileEditVCHandler.m"
+            timestampString = "501081563.643648"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "uChat/General/Profile/SKProfileEditVCHandler.m"
+            timestampString = "501081563.643648"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "uChat/General/Profile/SKEditViewController.m"
+            timestampString = "501508806.479727"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
             endingLineNumber = "80"
-            landmarkName = "-registerWithUid:anPwd:target:okSelector:failSelector:erroSelector:"
+            landmarkName = "-layoutWithType:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -127,13 +211,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/Network/SKNetwork.m"
-            timestampString = "497194470.081986"
+            filePath = "uChat/General/Profile/SKEditViewController.m"
+            timestampString = "501509099.700493"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "-postRequestWithParam:target:okSelector:failSelector:erroSelector:"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-save"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -143,13 +227,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/SKLoginViewController.m"
-            timestampString = "497274157.988326"
+            filePath = "uChat/DataBase/SKDataBase.m"
+            timestampString = "502204271.063709"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
-            landmarkName = "-failSelector:"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-init"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -159,13 +243,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/SKLoginViewController.m"
-            timestampString = "497274160.373644"
+            filePath = "uChat/DataBase/SKUserDataBase.m"
+            timestampString = "502203854.152689"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
-            landmarkName = "-erro:"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-getFrindsWithUid:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -175,13 +259,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/SKMessageViewController.m"
-            timestampString = "497281434.093305"
+            filePath = "uChat/DataBase/SKUserDataBase.m"
+            timestampString = "502200970.838935"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "-handler"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-createTable"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -191,13 +275,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/LogIn/SKLoginViewController.m"
-            timestampString = "497341333.420493"
+            filePath = "uChat/DataBase/SKDataBase.m"
+            timestampString = "502204271.063709"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
-            landmarkName = "-okSelector:"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-init"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -207,61 +291,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/LogIn/SKLoginViewController.m"
-            timestampString = "497341333.420493"
+            filePath = "uChat/DataBase/SKDataBase.m"
+            timestampString = "502204271.063709"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
-            landmarkName = "-okSelector:"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-executeQuery:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__36-[SKLoginViewController okSelector:]_block_invoke_2"
-                  moduleName = "uChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zj-db0548/uchat_app/uChat/uChat/LogIn/SKLoginViewController.m"
-                  timestampString = "497282248.022278"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "154"
-                  endingLineNumber = "154"
-                  offsetFromSymbolStart = "102">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__copy_helper_block_"
-                  moduleName = "uChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zj-db0548/uchat_app/uChat/uChat/LogIn/SKLoginViewController.m"
-                  timestampString = "497282248.024251"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "154"
-                  endingLineNumber = "154"
-                  offsetFromSymbolStart = "51">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_"
-                  moduleName = "uChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zj-db0548/uchat_app/uChat/uChat/LogIn/SKLoginViewController.m"
-                  timestampString = "497282248.025721"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "154"
-                  endingLineNumber = "154"
-                  offsetFromSymbolStart = "29">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -270,13 +307,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/LogIn/SKLoginViewController.m"
-            timestampString = "497341333.420493"
+            filePath = "uChat/Profile/SKUserProfile.m"
+            timestampString = "502203888.558081"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "203"
-            endingLineNumber = "203"
-            landmarkName = "-failSelector:"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-initWithDictionary:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -286,61 +323,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "uChat/LogIn/SKLoginViewController.m"
-            timestampString = "497341333.420493"
+            filePath = "uChat/DataBase/SKUserDataBase.m"
+            timestampString = "502204436.334832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "233"
-            endingLineNumber = "233"
-            landmarkName = "-erro:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "uChat/Network/SKNetwork.m"
-            timestampString = "497287092.834709"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "-postRequestWithParam:target:okSelector:failSelector:erroSelector:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "uChat/Network/SKNetwork.m"
-            timestampString = "497287097.434657"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "-postRequestWithParam:target:okSelector:failSelector:erroSelector:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "uChat/Network/SKNetwork.m"
-            timestampString = "497287102.241355"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "-postRequestWithParam:target:okSelector:failSelector:erroSelector:"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-getFrindsWithUid:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

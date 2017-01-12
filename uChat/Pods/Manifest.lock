@@ -14,63 +14,79 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - Firebase/AdMob (3.3.0):
-    - Firebase/Analytics (= 3.3.0)
-    - Google-Mobile-Ads-SDK (= 7.8.1)
-  - Firebase/Analytics (3.3.0):
-    - FirebaseAnalytics (= 3.2.1)
-  - Firebase/Core (3.3.0):
-    - Firebase/Analytics (= 3.3.0)
-  - FirebaseAnalytics (3.2.1):
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.10)
+  - Firebase/AdMob (3.7.1):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (= 7.12.1)
+  - Firebase/Core (3.7.1):
+    - FirebaseAnalytics (= 3.4.4)
+    - FirebaseCore (= 3.4.3)
+  - FirebaseAnalytics (3.4.4):
+    - FirebaseCore (~> 3.4)
     - FirebaseInstanceID (~> 1.0)
     - GoogleInterchangeUtilities (~> 1.2)
     - GoogleSymbolUtilities (~> 1.1)
-    - GoogleUtilities (~> 1.3)
-  - FirebaseInstanceID (1.0.7)
+  - FirebaseCore (3.4.3):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleUtilities (~> 1.2)
+  - FirebaseInstanceID (1.0.8)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
-  - Google-Mobile-Ads-SDK (7.8.1)
-  - GoogleInterchangeUtilities (1.2.1):
-    - GoogleSymbolUtilities (~> 1.0)
-  - GoogleSymbolUtilities (1.1.1)
-  - GoogleUtilities (1.3.1):
-    - GoogleSymbolUtilities (~> 1.0)
-  - MJRefresh (3.1.10)
+  - Google-Mobile-Ads-SDK (7.12.1)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
   - Reachability (3.2)
-  - RongCloudIMKit (2.6.6)
-  - SDWebImage (3.8.1):
-    - SDWebImage/Core (= 3.8.1)
-  - SDWebImage/Core (3.8.1)
-  - UMengAnalytics (4.0.4)
+  - RongCloudIMKit (2.6.11)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - TTRangeSlider (1.0.4)
+  - UMengAnalytics (4.1.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - Crashlytics
+  - Fabric
   - Firebase/AdMob
   - Firebase/Core
   - FMDB
+  - MBProgressHUD
   - MJRefresh
   - Reachability
   - RongCloudIMKit (~> 2.6.6)
   - SDWebImage
+  - TTRangeSlider
   - UMengAnalytics
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  Firebase: 6250071f0e2440a5c4c67b8cb6b868f868237ac3
-  FirebaseAnalytics: 0fd6532cb2c3d03cd5cf26ad295ccb091efd3104
-  FirebaseInstanceID: a9d923f3d0b6fbf9fac89310860357aaadc34be5
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Fabric: c73f371ee543e3f0b80608f2674750e4910d1669
+  Firebase: be473484f0d515e72ffd04acf22f981773c23e58
+  FirebaseAnalytics: 0533a00b681e08fd0b2cd0444b7ddf0ef9fd7a1a
+  FirebaseCore: 5a885548bbc5f0c410b04f8e9ac9d73ff1221907
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
-  Google-Mobile-Ads-SDK: 3c2a6656117989469bfe7645640aa1de024a4c6c
-  GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
-  GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
-  GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
-  MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
+  Google-Mobile-Ads-SDK: 542eb24c1ce6c8fd5084ee9572fd9dcd2d06065a
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  RongCloudIMKit: f71b8797111faad3ac401eefcc2ced6a0bc20639
-  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
-  UMengAnalytics: 4ed421fb3bca63b26fc13c947743cabf3831d199
+  RongCloudIMKit: 880e0eefb689051a754f1e10a19c735fcf3049a4
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  TTRangeSlider: 7c04d9cf84cd5fba96e86b3ded8e5e0b534758b0
+  UMengAnalytics: 19b28253793d77dff10fb7d502faad1fb6b8ce4a
 
-PODFILE CHECKSUM: 35cbed6a98ad3858c259f1184219aa061bed9a06
+PODFILE CHECKSUM: 1f123c72bc17ee0b9d7f401ba84e78596f006060
 
 COCOAPODS: 1.0.1

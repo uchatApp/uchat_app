@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 
 #import "AppDelegate+init.h"
+#import "SKNotification.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
 
 @interface AppDelegate ()
 
@@ -21,6 +25,18 @@
     // Override point for customization after application launch.
     
     [self addHomeController];
+    [self locationAuthority];
+    [self initRongCloudSDK];
+    
+    [Fabric with:@[[Crashlytics class]]];
+
+    [SKNotification addNotificationWithFireDate:[NSDate dateWithTimeIntervalSinceNow:10.0]
+                                           body:@"添加了很多新功能， 快来试试吧"
+                                    alertAction:nil
+                               alertLaunchImage:nil];
+    [SKNotification scheduleAllNotifications];
+    [SKNotification registerForRemoteNotifications];
+    
     return YES;
 }
 
@@ -52,4 +68,35 @@
 }
 
 
+- (void)application:(UIApplication *)application
+handleActionWithIdentifier:(NSString *)identifier
+forLocalNotification:(UILocalNotification *)notification
+  completionHandler:(void (^)())completionHandler{
+
+    
+
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+
+
+}
+- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings {
+
+    [SKNotification scheduleAllNotifications];
+        
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+
+    //compare to local deviceToken
+    
+    NSData *localDeviceToken = [[NSUserDefaults standardUserDefaults] objectForKey:@"deviceToken"];
+    
+     //if changed send it to server
+    if (![deviceToken isEqualToData:localDeviceToken]) {
+        
+    }
+    
+}
 @end

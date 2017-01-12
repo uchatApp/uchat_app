@@ -13,9 +13,14 @@
 
 #import "SKLoginViewController.h"
 #import "UMMobClick/MobClick.h"
-#import "SKMessageViewController.h"
+#import "SKFriViewController.h"
 #import "SKSelfViewController.h"
 #import "SKMacro.h"
+#import "SKHomePage.h"
+#import "SKLocationManager.h"
+#import "SKUserDataBase.h"
+#import "SKMsgViewController.h"
+
 //#import "MTWaterWave.h"
 //#import "MTFriViewController.h"
 @import Firebase;
@@ -24,30 +29,27 @@
 
 - (void)addHomeController {
     
+    SKUserDataBase *base = [[SKUserDataBase alloc] init];
 //    [FIRApp configure];
-    SKMessageViewController *controllerMsg = [[SKMessageViewController alloc] init];
+    
+    SKMsgViewController *controllerMsg = [[SKMsgViewController alloc] init];
+    SKFriViewController *controllerFri = [[SKFriViewController alloc] init];
     SKSelfViewController *controllerSelf = [[SKSelfViewController alloc] init];
-//    MTFriViewController *controllerFri = [[MTFriViewController alloc] init];
-//    MTNearbyViewController *controllerNear = [[MTNearbyViewController alloc] init];
-//    
-    controllerMsg.title = @"消息";
+  
+    controllerFri.title = @"好友";
     controllerSelf.title = @"我";
-//    controllerFri.title = @"friends";
-//    controllerNear.title = @"near";
-//    
-//    MTHomePageTabBarController *homePage = [MTHomePageTabBarController shareInstance];
-//    [homePage addChildViewController:controllerMsg];
-//    [homePage addChildViewController:controllerFri];
-//    [homePage addChildViewController:controllerNear];
+    controllerMsg.title = @"消息";
     
     SKLoginViewController *loginVC = [[SKLoginViewController alloc] init];
-    
-    UITabBarController *homePage = [[UITabBarController alloc] init];
-
+    SKHomePage *homePage = [[SKHomePage alloc] init];
     UINavigationController *rootController = [[UINavigationController alloc]
                                               initWithRootViewController:homePage];
+    
+   
+    
     self.window.rootViewController = rootController;
     [homePage addChildViewController:controllerMsg];
+    [homePage addChildViewController:controllerFri];
     [homePage addChildViewController:controllerSelf];
     
     [rootController pushViewController:loginVC animated:NO];
@@ -75,6 +77,10 @@
     
 }
 
+- (void)locationAuthority {
+    [[SKLocationManager sharedManager] requestAuthorization];
+    [[SKLocationManager sharedManager] startUpdatingLocation];
+}
 
 - (BOOL)isLogin {
     
@@ -85,25 +91,6 @@
 - (void)initRongCloudSDK {
     
     [[RCIM sharedRCIM] initWithAppKey:MT_RONG_CLOUD_APPKEY];
-    
-    //测试阶段
-    NSString *MTTest = @"mXJk/Lu5RmnnwcRscUPwGIH9pTpZm6lnQjp+SVRPKW92dNyyAh9DLIBqhl4FOoCKa3JUhYXiBVPtWmh6IaRGC6f7atXwyAJf";
-    NSString *MTTest2 = @"Nwa18QY9QwqO3wsFkvP+k4H9pTpZm6lnQjp+SVRPKW8XvF+SuQte9/HwRxeLazplGjduYwTNidkU6X8xWMTx2g==";
-    
-    [[RCIM sharedRCIM] connectWithToken:MTTest
-                                success:^(NSString *userId){
-                                    NSLog(@"%@",userId);
-                                }
-     
-                                error:^(RCConnectErrorCode status) {
-                                      NSLog(@"登陆的错误码为:%ld", status);
-                                  }
-                         tokenIncorrect:^{
-                                      //token过期或者不正确。
-                                      //如果设置了token有效期并且token过期，请重新请求您的服务器获取新的token
-                                      //如果没有设置token有效期却提示token错误，请检查您客户端和服务器的appkey是否匹配，还有检查您获取token的流程。
-                                      NSLog(@"token错误");
-                                  }];
     
 }
 

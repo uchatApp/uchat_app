@@ -15,5 +15,6 @@
 - (void)addUMConfig;
 - (BOOL)isLogin;
 - (void)initRongCloudSDK;
+- (void)locationAuthority;
 
 @end

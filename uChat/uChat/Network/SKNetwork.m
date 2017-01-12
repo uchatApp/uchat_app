@@ -38,6 +38,7 @@
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
+  
     [manager POST:param.url parameters:param.paramDic constructingBodyWithBlock:^(id formData){
         
         if (param.formData) {

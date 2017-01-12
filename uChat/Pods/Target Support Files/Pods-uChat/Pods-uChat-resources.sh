@@ -81,19 +81,19 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/RongCloud.bundle"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/en.lproj"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/zh-Hans.lproj"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/Emoji.plist"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/RCConfig.plist"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/RongCloud.bundle"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/en.lproj"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/zh-Hans.lproj"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/Emoji.plist"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/RCConfig.plist"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/RongCloud.bundle"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/en.lproj"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/zh-Hans.lproj"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/Emoji.plist"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_6_stable/RCConfig.plist"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/RongCloud.bundle"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/en.lproj"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/zh-Hans.lproj"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/Emoji.plist"
+  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_6_11_stable/RCConfig.plist"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

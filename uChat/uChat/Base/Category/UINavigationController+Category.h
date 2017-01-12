@@ -11,4 +11,8 @@
 
 @interface UINavigationController (Category)
 
+- (void)rightButtonItemWithCustomView:(UIView *)view;
+- (void)leftButtonItemWithCustomView:(UIView *)view;
+- (void)titleViewWithCustomView:(UIView *)view;
+
 @end

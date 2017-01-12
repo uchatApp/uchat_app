@@ -11,5 +11,7 @@
 @interface SKBaseViewController : UIViewController
 
 @property (nonatomic, strong, readonly) UITableView *tableView;
+//@property (nonatomic, strong)UIView *headView;
+
 
 @end

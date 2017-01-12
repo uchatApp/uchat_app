@@ -22,20 +22,35 @@
     
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
+    self.tabBarController.automaticallyAdjustsScrollViewInsets = YES;
+    self.view.backgroundColor = [UIColor whiteColor];
+    
 }
 
 - (UITableView *)tableView {
     
     if (!_tableView) {
         
-        CGFloat statusW = [[UIApplication sharedApplication] statusBarFrame].size.height;
-        CGRect tableFrame = CGRectMake(0, 0, MTScreenWidth, MTScreenHeight - statusW);
-        _tableView = [[UITableView alloc] initWithFrame:tableFrame];
+        CGFloat statusH = [[UIApplication sharedApplication] statusBarFrame].size.height;
+        CGRect tableFrame = CGRectMake(0, 0, MTScreenWidth, MTScreenHeight - statusH);
+        _tableView = [[UITableView alloc] initWithFrame:tableFrame
+                                                  style:UITableViewStyleGrouped];
         _tableView.backgroundColor = [UIColor grayColor];
+        
     }
     
     return _tableView;
 }
 
-
+//- (UIView *)headView {
+//    
+//    if (!_headView) {
+//        _headView = [[UIView alloc] initWithFrame:CGRectMake(0,
+//                                                             20,
+//                                                             MTScreenWidth,
+//                                                             44)];
+//        _headView.backgroundColor = [UIColor redColor];
+//    }
+//    return _headView;
+//}
 @end

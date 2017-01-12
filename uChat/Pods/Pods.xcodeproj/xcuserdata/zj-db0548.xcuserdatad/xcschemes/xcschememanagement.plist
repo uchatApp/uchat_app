@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,20 +39,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TTRangeSlider.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>35EF592437D897538F41C77BF3D31F0B</key>
+		<key>0FAEA3CA9D12F7727B3783AE8CF0ECDE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4275B6242017D6C3D7CB07E6F1416E34</key>
+		<key>249301413F1DEDBE92CB762454662619</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57E0661CEC9D783C13EB3FBCE96CECDE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>70BC44266C6FFE30D2C57129458E070B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91362AA5F6933CF61EBDAC6F2D8D84BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DF6D31FFE3AEB143938752E4A0AF4869</key>
+		<key>D058B89EB3B3DF45457A2DCD3971AFFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
